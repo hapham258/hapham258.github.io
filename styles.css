@@ -1,22 +1,5 @@
-body {
-	margin: 25px 0px 0px 0px;
-	background-color: #FFFFFF;
-	background-image: url(images/bg.gif);
-	background-position: center;
-	background-repeat: repeat-y;
-	text-align: center;
-}
-
-
-#main {
-	width: 770px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-	background-color: #FFFFFF;
-}
-
-#top-nav {
+#top_panel 
+{
 	width: 765px;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,11 +11,11 @@ body {
 	height: 30px;
 	line-height: 18px;
 	padding-left: 5px;
-
 	background-color: #FFFFFF;
 }
 
-#navigation {
+#navigation_panel 
+{
 	float: left;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 70%;
@@ -49,8 +32,8 @@ body {
 	text-align: right;
 }
 
-
-#content {
+#content_panel
+{
 	margin-left: 170px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 90%;
@@ -62,7 +45,8 @@ body {
 	background-color: #FFFFFF;
 }
 
-#footer {
+#footer_panel
+{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 70%;
 	color: #999999;
@@ -72,51 +56,21 @@ body {
 	background-color: #FFFFFF;
 }
 
-
-
-a {
-	color: #599BC5;
-	text-decoration: underline;
-}
-a:hover {
-	color: #599BC5;
-	text-decoration: none;
-}
-
-a.small-navigation {
-	color: #999999;
-	text-decoration: none;
-}
-
-a.small-navigation:hover {
-	color: #FF9900;
-}
-
-a.navigation {
-	color: #666666;
-	border-width: 0px 0px 0px 5px;
-	border-color: #DEDEDE;
-	border-style: solid;
-	text-decoration: none;
-	display: block;
-	padding: 3px 0px 3px 5px;
-	text-align: left;
-	font-weight: normal;
-}
-
-a.navigation:hover {
-	border-color: #599BC5;
-	background-color: #EFEFEF;
-}
-
-
-#header {
-	padding: 5px 0px 5px 0px;
-
+body 
+{
+	margin: 25px 0px 0px 0px;
 	background-color: #FFFFFF;
+	background-image: url(images/bg.gif);
+	background-position: center;
+	background-repeat: repeat-y;
+	text-align: center;
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-hr {
+hr
+{
 	width: 100%;
 	height: 0px;
 	text-align: center;
@@ -125,7 +79,8 @@ hr {
 	border-width: 0px 0px 1px 0px;
 }
 
-h1 {
+h1
+{
 	color: #599BC5;
 	font-size: 180%;
 	text-decoration: none;
@@ -139,8 +94,28 @@ h1 {
 	background-color: #FFFFFF;
 }
 
-p {
+a.navigation
+{
+	color: #666666;
+	border-width: 0px 0px 0px 5px;
+	border-color: #DEDEDE;
+	border-style: solid;
+	text-decoration: none;
+	display: block;
+	padding: 3px 0px 3px 5px;
+	text-align: left;
+	font-weight: normal;
+}
 
-	padding: 0px 0px 10px 0px;
-	margin-top: 10px;
+a.navigation:hover 
+{
+	border-color: #599BC5;
+	background-color: #EFEFEF;
+}
+
+.paper_image
+{
+    width: 80px;
+    padding-right: 10px;
+    padding-bottom: 40px;
 }
