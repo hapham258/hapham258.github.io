@@ -119,3 +119,8 @@ a.navigation:hover
     padding-right: 10px;
     padding-bottom: 40px;
 }
+
+img.avatar {
+    height: 40%;
+    width: 40%;
+}
