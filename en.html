@@ -1,0 +1,152 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <title>Phạm Quang Hà | Homepage</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>    
+        <div id="top_panel">
+            <b>Phạm Quang Hà</b> | <small>Robotics Research</small>
+        </div>
+        
+        <div id="navigation_panel" style="position:fixed">
+            Menu
+            <button class="lang" onclick="window.location.href='en.html'" disabled>en</button>
+            <button class="lang" onclick="window.location.href='vi.html'">vi</button>
+            <hr />
+            <a class="navigation" href="#section_1">Welcome</a>
+            <a class="navigation" href="#section_2">Project Highlights</a>
+            <a class="navigation" href="#section_3">Publications</a>
+            <a class="navigation" href="#section_4">Curriculum Vitae</a>
+        </div>
+        
+        <div id="content_panel">
+            <a name="section_1"><h1>Welcome</h1></a>
+            <p align="justify">
+                <img class="avatar" border="0" src="images/Avatar.jpg" align="left" style="padding-right:20px;padding-bottom:20px">
+                I'm an electrical engineer with interest in <b>Robotics, Signal Processing, Control Theory and Embedded
+                Systems</b>. I finish my (honors) bachelor and (research) master in <i>Control
+                Engineering & Automation</i> at Faculty of Electrical & Electronics Engineering, University of
+                Technology, Viet Nam National University Ho Chi Minh City (FEEE, HCMUT, VNUHCM). I used to work as
+                a research assistant at <a href="http://viamlab.com">VIAM Lab</a> with a goal
+                to realize full autonomy in a variety of unmanned vehicles. Right now, as a software engineer 
+                at <a href="https://www.vinai.io">VinAI</a>, I work towards to designing and enhancing a variety of intelligent 
+                softwares for numerous electric vehicles.
+            </p>
+            <p>
+                On this website you can find my publications and associated videos.
+            </p>
+            <p>
+                <b>Links: </b>
+                <img src="images/github.png"   height="13px"> <a href="https://github.com/hapham258">GitHub</a> -
+                <img src="images/gscholar.png" height="13px"> <a href="https://scholar.google.com/citations?hl=en&user=OCdgFvQAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> -
+                <img src="images/linkedin.png" height="13px"> <a href="https://www.linkedin.com/in/h%C3%A0-ph%E1%BA%A1m-08694721b">LinkedIn</a>
+                <br/>
+                <b>Contact: </b><a href="mailto:qha258@gmail.com">qha258@gmail.com</a>
+            </p>
+            <br/>
+            <br/>
+
+            <a name="section_2"><h1>Project Highlights</h1></a>
+            <h2>Direct SLAM based on Camera-LiDAR Fusion in Outdoor Environments</h2>
+            <p align="justify">
+                This video demonstrates the performance of a direct visual-laser SLAM in various outdoor
+                environments. In the system, an improved image alignment algorithm, a fast cloud registration algorithm
+                and a factor-graph-based windowed optimization algorithm are proposed. Combined with ikd-Tree data
+                structure for map management, our system is proven to run smoothly in different challenging scenarios.
+                This work is part of my master thesis at HCMUT, VNUHCM in 2022.
+                <br/>
+                <br/>
+                <iframe width="560px" height="315px" src="https://www.youtube.com/embed/O5SExO-eSMU"></iframe>
+            </p>
+            <br/>
+
+            <h2>Simulation of LOS Path Following and SBG Obstacle Avoidance for USV</h2>
+            <p align="justify">
+                This video demonstrates how USV follows predefined paths of different parameterization,
+                be it straight or bspline. The vehicle's guidance system is governed by LOS law that outputs reference
+                heading for R-modelled sliding-mode heading controller to track. To avoid obstacle, SBG is implemented,
+                making decision based on measurements from a 2D LiDAR.
+                This work is part of my upcoming collaboration with VIAM Lab at HCMUT, VNUHCM to realize autonomy in
+                environmental monitoring for surface vessels.
+                <br/>
+                <br/>
+                <iframe width="560px" height="315px" src="https://www.youtube.com/embed/tUHrQ3RO7ao"></iframe>
+            </p>
+            <br/>
+
+            <h2>2D LiDAR SLAM in Outdoor Environments</h2>
+            <p align="justify">
+                This video demonstrates the performance of a 2D LiDAR SLAM in both synthetic and real
+                environments. By taking advantage of robust weighting scheme, sliding-windowed optimization, fast
+                scan-matcher and parallel computing, the proposed system not only delivers stable performance in
+                cluttered surroudings but also meets real-time constraint.
+                This work is part of my bachelor thesis at HCMUT, VNUHCM in 2020.
+                <br/>
+                <br/>
+                <iframe width="560px" height="315px" src="https://www.youtube.com/embed/sa5I-8J5ifc"></iframe>
+            </p>
+            <br/>
+
+            <h2>Guidance and Control of Delivery AGV</h2>
+            <p align="justify">
+                This video demonstrates how a delivery AGV receives command from a monitor GUI and
+                automatically drives itself towards the desired destination. To retrieve position and orientation, the
+                vehicle relies on a RTK-GPS base receiver and an AHRS unit. Autonomous driving capability is then
+                realized by LOS path following and PID heading control.
+                This work is part of our project in 2019 Scientific Research for Student, funded by FEEE, HCMUT, VNUHCM.
+                <br/>
+                <br/>
+                <iframe width="560px" height="315px" src="https://www.youtube.com/embed/K4EBbHfdgHs"></iframe>
+            </p>
+            <br/>
+            <br/>
+
+            <a name="section_3"><h1>Publications</h1></a>
+            <p align="justify" style="margin-bottom:30px">
+                <img class="paper" align="left" src="pdf_img/2022_1.png">
+                <b>IMU-Assisted Direct Visual-Laser Odometry in Challenging Outdoor Environments</b>
+                (<u>Q.-H. Pham</u>, N.-H. Tran and T.-D. Nguyen),
+                in <i>International Conference on Green Technology and Sustainable Development</i>, Springer, 2023, pp. 497-508.
+                <br/>
+                <img src="images/link.png" height="13px"><a href="https://doi.org/10.1007/978-3-031-19694-2_44">[link]</a>
+                <img src="images/pdf.png"  height="13px"><a href="pdf/2023_1.pdf">[pdf]</a>
+            </p>
+            <p align="justify" style="margin-bottom:30px">
+                <img class="paper" align="left" src="pdf_img/2021_2.png">
+                <b>VIAM-USV2000: An Unmanned Surface Vessel with Novel Autonomous Capabilities in Confined Riverine Environments</b>
+                (N.-H. Tran, <u>Q.-H. Pham</u>, J.-H. Lee and H.-S. Choi),
+                in <i>Machines</i>, vol. 9, no. 7, p. 133, 2021.
+                <br/>
+                <img src="images/link.png" height="13px"><a href="https://doi.org/10.3390/machines9070133">[link]</a>
+                <img src="images/pdf.png"  height="13px"><a href="pdf/2021_2.pdf">[pdf]</a>
+            </p>
+            <p align="justify" style="margin-bottom:30px">
+                <img class="paper" align="left" src="pdf_img/2021_1.png">
+                <b>Online Robust Sliding-Windowed LiDAR SLAM in Natural Environments</b>
+                (<u>Q.-H. Pham</u>, N.-H. Tran, T.-T. Nguyen and T.-P. Tran),
+                in <i>2021 International Symposium on Electrical and Electronics Engineering (ISEE)</i>, Ho Chi Minh City, 2021.
+                <br/>
+                <img src="images/link.png" height="13px"><a href="https://doi.org/10.1109/ISEE51682.2021.9418728">[link]</a>
+                <img src="images/pdf.png"  height="13px"><a href="pdf/2021_1.pdf">[pdf]</a>
+            </p>
+            <p align="justify" style="margin-bottom:30px">
+                <img class="paper" align="left" src="pdf_img/2020_3.png">
+                <b>Implementation and Enhancement of Set-Based Guidance by Velocity Obstacle along with LiDAR for Unmanned Surface Vehicles</b>
+                (N.-H. Tran, M.-H. Vu, T.-C. Nguyen, M.-T. Phan and <u>Q.-H. Pham</u>),
+                in <i>2020 5th International Conference on Green Technology and Sustainable Development (GTSD)</i>, Ho Chi Minh City, 2020.
+                <br/>
+                <img src="images/link.png" height="13px"><a href="https://doi.org/10.1109/GTSD50082.2020.9303152">[link]</a>
+            </p>
+            <br/>
+            <br/>
+            
+            <a name="section_4"><h1>Curriculum Vitae</h1></a>
+            <iframe width="570px" height="600px" src="pdfjs/web/viewer.html?file=../../pdf/CV_en.pdf"></iframe>
+        </div>
+        
+        <div id="footer_panel">
+            <hr />
+            Copyright 2021 | Phạm Quang Hà | All Rights Reserved
+        </div>
+    </body>
+</html>
