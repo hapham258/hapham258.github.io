@@ -1,4 +1,4 @@
-#top_panel 
+#top_panel
 {
 	width: 765px;
 	margin-left: auto;
@@ -14,7 +14,7 @@
 	background-color: #FFFFFF;
 }
 
-#navigation_panel 
+#navigation_panel
 {
 	float: left;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -56,7 +56,7 @@
 	background-color: #FFFFFF;
 }
 
-body 
+body
 {
 	margin: 25px 0px 0px 0px;
 	background-color: #FFFFFF;
@@ -107,7 +107,7 @@ a.navigation
 	font-weight: normal;
 }
 
-a.navigation:hover 
+a.navigation:hover
 {
 	border-color: #599BC5;
 	background-color: #EFEFEF;
@@ -120,7 +120,16 @@ a.navigation:hover
     padding-bottom: 40px;
 }
 
-img.avatar {
+img.avatar
+{
     height: 40%;
     width: 40%;
+}
+
+button.lang
+{
+    border: none;
+    color: #666666;
+    float: left;
+    margin-right: 3px
 }
