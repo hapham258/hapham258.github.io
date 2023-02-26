@@ -113,6 +113,11 @@ a.navigation:hover
 	background-color: #EFEFEF;
 }
 
+a.href
+{
+    text-decoration: none;
+}
+
 img.paper
 {
     width: 80px;
