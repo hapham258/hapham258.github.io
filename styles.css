@@ -1,3 +1,14 @@
+#pretop_panel
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #817d7d;
+	padding: 0px 0px 30px 0px;
+	text-align: right;
+	clear: left;
+	background-color: #FFFFFF;
+}
+
 #top_panel
 {
 	width: 765px;
