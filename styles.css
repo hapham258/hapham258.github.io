@@ -35,7 +35,7 @@
 	background-color: #FAFAFA;
 	text-decoration: none;
 	margin: 0px 0px 0px 0px;
-	padding: 5px 5px 15px 5px;
+	padding: 5px 5px 5px 5px;
 	width: 150px;
 	border-color: #CCCCCC;
 	border-style: solid;
@@ -146,8 +146,9 @@ button.lang
 {
     border: none;
     color: #666666;
+	background-color: rgb(222, 217, 217);
     float: left;
     margin-right: 3px;
     letter-spacing: 0px;
-    font-size: inherit;
+    font-size: 110%;
 }
